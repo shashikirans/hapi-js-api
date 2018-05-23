@@ -1,0 +1,23 @@
+{
+  "name": "hp-app",
+  "version": "1.0.0",
+  "description": "hp-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --assert code --leaks --coverage",
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.5.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.37.8",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^15.4.5",
+    "nodemon": "^1.17.4"
+  }
+}
